@@ -1,0 +1,60 @@
+/*CSS RESET*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: Libre-Baskerville;
+}
+
+p {
+	font-family: Nunito;
+}
+
+/* Navbar Section */
+.navbar {
+    background: rgb(242, 237, 171, 0.80);
+    backdrop-filter: blur(5px);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.navbar a {
+    color: #4D4D45;
+}
+
+/* Landing */
+#landing {
+	background-image: url("./images/city.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 5px 5px 10px black;
+}
+
+#my-pic {
+	border-radius: 20px;
+}
+
+/* Projects and Tools */
+#projects {
+	background: rgb(242, 237, 171, 1.0);
+}
+
+
+
+/* Contact Section */
+#contact-us {
+	background: rgb(242, 237, 171, 1.0);
+	color: #4D4D45;
+}
+
+#map {
+		background: #4D4D45;
+}
+
+#google-maps {
+	height: 50vh;
+	width: 100%;
+}
